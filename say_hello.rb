@@ -3,4 +3,8 @@ def say_hello(name)
   puts "Hello, #{name}"
 end
 
-puts say_hello(sarah)
+def greeting(name = "Ruby programmer")
+  puts "Hello, #{name}"
+end
+
+say_hello(sarah)
